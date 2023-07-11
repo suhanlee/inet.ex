@@ -50,11 +50,8 @@ defmodule Inet.MixProject do
 
   defp docs do
     [
-      source_ref: "v#{@version}",
       main: "Inet.ex",
-      extras: ["README.md"],
-      source_ref: "v#{@version}",
-      source_url: @scm_url
+      extras: ["README.md"]
     ]
   end
 end
